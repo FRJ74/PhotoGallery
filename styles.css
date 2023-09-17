@@ -1,4 +1,11 @@
-body {
-    background-color: #9bc1ef;
-
+/* Main Stylings */
+.gallery {
+    width: 50%;
+    border: 5px solid red;
 }
+
+img {
+  width: 100%;  
+  padding: 5px;
+  border: 5px solid blue;
+ }
