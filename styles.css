@@ -23,6 +23,9 @@ body {
 .gallery {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
  /* setting box-sizing to content-box explicitly, with the global * selector */
