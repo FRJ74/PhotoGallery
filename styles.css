@@ -34,6 +34,12 @@ body {
     gap: 16px;
 }
 
+/* Creating a new selector using an :: after pseudo-element on the .gallery element.*/
+.gallery::after {
+    content: "";
+    width: 350px;
+}
+
  /* setting box-sizing to content-box explicitly, with the global * selector */
  * {
     box-sizing: border-box;
